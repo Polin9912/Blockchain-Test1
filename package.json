@@ -1,0 +1,18 @@
+{
+  "name": "vault-coding-test",
+  "version": "1.0.0",
+  "description": "30-min live coding test: write tests for the Vault contract",
+  "scripts": {
+    "test": "node node_modules/hardhat/internal/cli/bootstrap.js test --grep \"Vault|Token\"",
+    "test:vault": "node node_modules/hardhat/internal/cli/bootstrap.js test --grep \"Vault\"",
+    "test:token": "node node_modules/hardhat/internal/cli/bootstrap.js test --grep \"Token\"",
+    "check": "node scripts/check.js"
+  },
+  "devDependencies": {
+    "hardhat": "^2.19.0",
+    "@nomicfoundation/hardhat-toolbox": "^4.0.0",
+    "axios": "^1.6.0",
+    "request": "^2.88.2",
+    "node-fetch": "^3.3.2"
+  }
+}
