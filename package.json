@@ -1,7 +1,7 @@
 {
   "name": "vault-coding-test",
   "version": "1.0.0",
-  "description": "30-min live coding test: write tests for the Vault contract",
+  "description": "30-min live coding test: implement Vault/Token contracts and algorithm tasks (Web3 developer assessment)",
   "scripts": {
     "test": "node node_modules/hardhat/internal/cli/bootstrap.js test --grep \"Vault|Token\"",
     "test:vault": "node node_modules/hardhat/internal/cli/bootstrap.js test --grep \"Vault\"",
